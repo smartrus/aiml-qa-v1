@@ -1,0 +1,16 @@
+<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Terminal window -->
+  <rect x="2" y="3" width="20" height="18" rx="2"
+    stroke="#7c3aed" stroke-width="1.5" fill="rgba(124,58,237,0.06)"/>
+  <!-- Title bar -->
+  <line x1="2" y1="8" x2="22" y2="8" stroke="#7c3aed" stroke-width="1.5"/>
+  <!-- Traffic light dots -->
+  <circle cx="5.5" cy="5.5" r="0.9" fill="#7c3aed" opacity="0.5"/>
+  <circle cx="8.5" cy="5.5" r="0.9" fill="#7c3aed" opacity="0.7"/>
+  <circle cx="11.5" cy="5.5" r="0.9" fill="#7c3aed"/>
+  <!-- Terminal prompt: > _ -->
+  <polyline points="5,13 8,15.5 5,18"
+    stroke="#7c3aed" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <line x1="10" y1="18" x2="15" y2="18"
+    stroke="#7c3aed" stroke-width="1.5" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,17 @@
+<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Pipeline nodes (3 stages) -->
+  <circle cx="3.5"  cy="12" r="2.5" stroke="#7c3aed" stroke-width="1.5" fill="rgba(124,58,237,0.06)"/>
+  <circle cx="12"   cy="12" r="2.5" stroke="#7c3aed" stroke-width="1.5" fill="rgba(124,58,237,0.06)"/>
+  <circle cx="20.5" cy="12" r="2.5" stroke="#7c3aed" stroke-width="1.5" fill="rgba(124,58,237,0.06)"/>
+  <!-- Connecting lines with arrowheads -->
+  <line x1="6" y1="12" x2="9" y2="12" stroke="#7c3aed" stroke-width="1.5" stroke-linecap="round"/>
+  <polyline points="8,10.5 9.5,12 8,13.5" stroke="#7c3aed" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <line x1="14.5" y1="12" x2="17.5" y2="12" stroke="#7c3aed" stroke-width="1.5" stroke-linecap="round"/>
+  <polyline points="16.5,10.5 18,12 16.5,13.5" stroke="#7c3aed" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- Circuit node dots on connecting lines -->
+  <circle cx="7.5"  cy="12" r="1" fill="#7c3aed"/>
+  <circle cx="16"   cy="12" r="1" fill="#7c3aed"/>
+  <!-- Stage labels: small tick on last node (test passed) -->
+  <polyline points="19.2,12 20.2,13.2 22,10.8"
+    stroke="#7c3aed" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
